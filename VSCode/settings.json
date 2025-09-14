@@ -1,0 +1,36 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 15,
+    "explorer.compactFolders": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "clear; python -u",
+    },
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    "code-runner.defaultLanguage": ".cpp",
+    "code-runner.showExecutionMessage": false,
+    "code-runner.fileDirectoryAsCwd": true,
+    "database-client.autoSync": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "rust": false,
+        "html": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "[rust]": {
+        "editor.inlayHints.enabled": "off",
+        "rust-analyzer.inlayHints.enable": false,
+        "rust-analyzer.diagnostics.disabled": [
+    "unused_mut",
+    "unused_imports",
+]
+
+}       
+
+
+}
