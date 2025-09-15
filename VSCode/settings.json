@@ -24,13 +24,30 @@
     "github.copilot.nextEditSuggestions.enabled": false,
     "[rust]": {
         "editor.inlayHints.enabled": "off",
-        "rust-analyzer.inlayHints.enable": false,
-        "rust-analyzer.diagnostics.disabled": [
-    "unused_mut",
-    "unused_imports",
-]
+        "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.formatOnSave": true,
+    },
+"rust-analyzer.check.command": "clippy",
 
-}       
-
+"todo-tree.highlights.customHighlight": {
+    "BUG": {
+        "icon": "bug"
+    },
+    "HACK": {
+        "icon": "tools"
+    },
+    "FIXME": {
+        "icon": "flame"
+    },
+    "XXX": {
+        "icon": "x"
+    },
+    "[ ]": {
+        "icon": "issue-draft"
+    },
+    "[x]": {
+        "icon": "issue-closed"
+    },
+},
 
 }
