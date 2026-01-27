@@ -7,7 +7,7 @@
     "code-runner.executorMap": {
         "python": "clear; python -u",
     },
-    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.colorTheme": "monokai.theme-monokai-pro-vscode",
     "workbench.iconTheme": "material-icon-theme",
     "code-runner.defaultLanguage": ".cpp",
     "code-runner.showExecutionMessage": false,
